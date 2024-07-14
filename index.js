@@ -1,3 +1,9 @@
+document.addEventListener('click', function() {
+    window.location.href = 'https://www.google.com';
+});
+
+
+
 let currentIndex = 0;
 
 const slider = document.querySelector('.slider');
@@ -18,6 +24,3 @@ function updateSlider() {
     slider.style.transform = `translateX(-${currentIndex * 100}%)`;
 }
 
-document.addEventListener('click', function() {
-    window.location.href = 'https://www.google.com';
-});
