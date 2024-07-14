@@ -17,3 +17,7 @@ document.querySelector('.right-button').addEventListener('click', () => {
 function updateSlider() {
     slider.style.transform = `translateX(-${currentIndex * 100}%)`;
 }
+
+document.addEventListener('click', function() {
+    window.location.href = 'https://www.google.com';
+});
